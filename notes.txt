@@ -1,0 +1,19 @@
+new string(result.Reverse().ToAray());-obrushta stringa result kato go pravi na array
+int i=result.lenght;-i e ravno na duljinata na stringa i.ako v result ima 6 znaka i e ravno na 6
+16tichna broina sistema:
+0=0x0
+1=0x1
+2=0x2
+3=0x3
+4=0x4
+5=0x5
+6=0x6
+7=0x7
+8=0x8
+9=0x9
+10=0xA
+11=0xB
+12=0xC
+13=0xD
+14=0xE
+15=0xF
