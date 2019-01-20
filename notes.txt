@@ -17,3 +17,5 @@ int i=result.lenght;-i e ravno na duljinata na stringa i.ako v result ima 6 znak
 13=0xD
 14=0xE
 15=0xF
+
+
