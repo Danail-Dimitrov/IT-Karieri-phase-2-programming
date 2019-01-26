@@ -1,4 +1,4 @@
-new string(result.Reverse().ToAray());-obrushta stringa result kato go pravi na array
+﻿new string(result.Reverse().ToAray());-obrushta stringa result kato go pravi na array
 int i=result.lenght;-i e ravno na duljinata na stringa i.ako v result ima 6 znaka i e ravno na 6
 16tichna broina sistema:
 0=0x0
@@ -17,5 +17,20 @@ int i=result.lenght;-i e ravno na duljinata na stringa i.ako v result ima 6 znak
 13=0xD
 14=0xE
 15=0xF
+-----------------------------------------------------------------------------------------------------------------------------------
 
+ Convert.ToInt32(string, 16)-pravi string s hex chisla na dec chislo
 
+string.format("{0:x}", decValue);-dec to hex
+
+ \' – единична кавичка
+
+-     \" – двойна кавичка
+
+-     \\ – лява наклонена черта
+
+-     \n – нов ред
+
+-     \t – отместване (табулация)
+
+-     \uXXXX – символ, зададен с Unicode номера си, примерно \u03A7.
