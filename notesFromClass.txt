@@ -36,3 +36,5 @@ string.format("{0:x}", decValue);-dec to hex
 -     \uXXXX – символ, зададен с Unicode номера си, примерно \u03A7.
 ----------------------------------------------------------------------------------------------------------------------
 object-bastina promenliva definira medodi koito vseki obekt ima moje da prieme vsqkakuv tip danni(primerche-kakto se otnasqt jivotno/kotka;kuche;delfin taka se otnasqt object/int;char;string etc.
+------------------------------------------------------------------------------------------------------------------------
+ctl+.-help ot vs
