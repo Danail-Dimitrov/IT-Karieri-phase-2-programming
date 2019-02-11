@@ -11,8 +11,8 @@ namespace RemoveNegative
         static void Main(string[] args)
         {
             List<int> nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-            Console.Write(string.Join(", ", nums));
-            Console.WriteLine(" ");
+            nums.RemoveAll(x => x < 0);
+            Console.WriteLine(string.Join(" ", nums));
         }
     }
 }
