@@ -38,3 +38,51 @@ string.format("{0:x}", decValue);-dec to hex
 object-bastina promenliva definira medodi koito vseki obekt ima moje da prieme vsqkakuv tip danni(primerche-kakto se otnasqt jivotno/kotka;kuche;delfin taka se otnasqt object/int;char;string etc.
 ------------------------------------------------------------------------------------------------------------------------
 ctl+.-help ot vs
+-----------------------------------------------------------------------------------------------------------------------------
+rechnici i lampda:
+1.rechnici
+imat kluch(vmesto index) i stoinost 
+1.1 klucha moje da e duma ili realno chislo
+1.2 deklarirane
+var phonebook = new Dictionary<string,string>();
+1.3 deklaraciq s nqkolko stoinosti
+var phonebook = new Dictionary<string,List<string>>();
+1.4 Remove
+phonebook.Remove["kluch"]-maha 
+1.5 pechatane
+foreach (var pair in phonebook)
+  {
+    Console.Writeline("{0} -->  {1}", pay.Key, pair.Value);
+  }
+1.6 osobenosti
+-izpolzvat hesh tablica + spisuk
+-pazqt kluchovete po reda na zapisvane
+1.7 metodi
+.Count-pazi broq na kluch,stoinost dvoikie
+.Keys-davi ni vischki kluchove v kolekciq
+.Values-davi ni vischki stoinosti v kolekciq
+osnovnite:.Add;.Remove;.Clear
+.ContainsKey()-proverq dali klucha sushtestvuva (tova e burza operaciq)
+.ContainsValue()-proverqva dali stoinossta se sadurja (tova e bavna oberaciq)
+.TryGetValue()-proverq dali klucha sushtestvuva i ako da pechata stoinostta mu
+.OrderBy(x => x.Key);-podrejba po azbuchen red;
+.OrderByDescending(x => x.Key);-podrejba po azbuchen red na obratno;
+dictionary.Add("horrors",new List<string>());
+movies["horrors"].Add("Evil Dead");
+
+
+
+2.sortedDictionary<K,V>
+sortirat kluchovete v estestveniq im red
+2.1 metodi
+.Count-pazi broq na kluch,stoinost dvoikie
+.Keys-davi ni vischki kluchove v kolekciq
+.Values-davi ni vischki stoinosti v kolekciq
+.ContainsKey()-proverq dali klucha sushtestvuva (tova e burza operaciq)
+.ContainsValue()-proverqva dali stoinossta se sadurja (tova e bavna oberaciq)
+.TryGetValue()-proverq dali klucha sushtestvuva i ako da pechata stoinostta mu
+
+
+
+
+
