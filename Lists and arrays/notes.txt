@@ -1,0 +1,36 @@
+﻿На кратко: Въвеждане на масив от един ред:
+int[] arr = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+Обръща:
+Array.Reverse(arr);
+
+Сортира по дължина:
+Array.Sort(arr);
+
+Дава стойност 0 на последователни елементи:
+int[] arr = new int[] {  2, 4, -5, 1, 10  };
+
+Копира масива source в масива destination от позиция index 1:
+source.CopyTo( destination, 1 );
+
+source=2 4 6 8 10 12 14 16
+destination=1 3 5 7 9 11 13 15 17
+Array.Copy(source,4,destination,2,3);  
+1 3 10 12 14 11 13 15 17
+
+======================================================================
+List<int> input = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+
+
+Add(element) – добавя елемент към List<T>
+Count – връща броя на елементите в List<T>
+Remove(element) – премахва първото срещане на елемент (връща true / false)
+RemoveAt(index) – премахва елемент по неговия индекс
+Insert(index, element) – вмъква елемент на зададената позиция
+Contains(element) – определя дали елемента се съдържа в списъка
+Sort() – сортира във възходящ ред
+Reverse() – обръща списъка наобратно
+
+
+
+
