@@ -23,6 +23,7 @@ List<int> input = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
 
 Add(element) – добавя елемент към List<T>
+AddRange()-dobavq mnogo ot list naprimer
 Count – връща броя на елементите в List<T>
 Remove(element) – премахва първото срещане на елемент (връща true / false)
 RemoveAt(index) – премахва елемент по неговия индекс
