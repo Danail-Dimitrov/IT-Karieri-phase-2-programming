@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA25E6-104F-4550-B4EB-D743818FB1DF}</ProjectGuid>
+    <ProjectGuid>{34BD439B-0073-42F3-9B56-3D5311E4010D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phonebook</RootNamespace>
-    <AssemblyName>phonebook</AssemblyName>
+    <RootNamespace>User_Logs</RootNamespace>
+    <AssemblyName>User_Logs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

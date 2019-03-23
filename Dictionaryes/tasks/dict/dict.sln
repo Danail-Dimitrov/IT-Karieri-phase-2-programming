@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phonebook", "phonebook\phonebook.csproj", "{FD26734E-FBE4-4823-9A36-ACABF27AE02C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phonebook", "phonebook\phonebook.csproj", "{DCDA25E6-104F-4550-B4EB-D743818FB1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Fix Emails", "A Miner Task\4. Fix Emails.csproj", "{346900D1-FE99-43CA-805A-492791CFA24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hands of Cards", "Hands of Cards\Hands of Cards.csproj", "{7962444C-D2A4-4560-B677-202B244DC5FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD26734E-FBE4-4823-9A36-ACABF27AE02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD26734E-FBE4-4823-9A36-ACABF27AE02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD26734E-FBE4-4823-9A36-ACABF27AE02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD26734E-FBE4-4823-9A36-ACABF27AE02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDA25E6-104F-4550-B4EB-D743818FB1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDA25E6-104F-4550-B4EB-D743818FB1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDA25E6-104F-4550-B4EB-D743818FB1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDA25E6-104F-4550-B4EB-D743818FB1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346900D1-FE99-43CA-805A-492791CFA24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346900D1-FE99-43CA-805A-492791CFA24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346900D1-FE99-43CA-805A-492791CFA24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346900D1-FE99-43CA-805A-492791CFA24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7962444C-D2A4-4560-B677-202B244DC5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7962444C-D2A4-4560-B677-202B244DC5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7962444C-D2A4-4560-B677-202B244DC5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7962444C-D2A4-4560-B677-202B244DC5FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1BD3995F-D9CF-4316-98A2-BD1DD4F0AC62}
+		SolutionGuid = {D1D3204C-5BB3-4042-B9E0-B94CB9063F05}
 	EndGlobalSection
 EndGlobal

@@ -67,12 +67,12 @@ osnovnite:.Add;.Remove;.Clear
 .TryGetValue()-proverq dali klucha sushtestvuva i ako da pechata stoinostta mu
 .OrderBy(x => x.Key);-podrejba po azbuchen red;
 .OrderByDescending(x => x.Key);-podrejba po azbuchen red na obratno;
-dictionary.Add("horrors",new List<string>());
+movies.Add("horrors",new List<string>());
 movies["horrors"].Add("Evil Dead");
 
 
 
-2.sortedDictionary<K,V>
+2.SortedDictionary<K,V>
 sortirat kluchovete v estestveniq im red
 2.1 metodi
 .Count-pazi broq na kluch,stoinost dvoikie
@@ -81,6 +81,55 @@ sortirat kluchovete v estestveniq im red
 .ContainsKey()-proverq dali klucha sushtestvuva (tova e burza operaciq)
 .ContainsValue()-proverqva dali stoinossta se sadurja (tova e bavna oberaciq)
 .TryGetValue()-proverq dali klucha sushtestvuva i ako da pechata stoinostta mu
+---------------------------------------------------------------------------------------------------------------------------------------------
+string 
+
+Преобразуване на string от и до char array:
+string str = new String(new char[] {'s', 't', 'r'});
+char[] charArr = str.ToCharArray(); // ['s', 't', 'r']
+
+Case-insensitive сравняване на символни низовe
+int result = string.Compare(str1, str2, true);
+// result == 0 if str1 equals str2
+// result < 0 if str1 is before str2
+// result > 0 if str1 is after str2
+
+str.Substring(int startIndex, int length)
+
+str.Replace(match, replacement)– замества всички съвпадения
+string cocktail = "Vodka + Martini + Cherry";
+string replaced = cocktail.Replace("+", "and");
+// Vodka and Martini and Cherry
+
+str.Remove(int index, int length) – изтрива част от низ
+string price = "$ 1234567";
+string lowPrice = price.Remove(2, 3);
+// $ 4567
+
+str.Trim() – отрязва празно протранство в началото и края на низ
+string s = "    example of white space    ";
+string clean = s.Trim();
+Console.WriteLine(clean); // example of white space
+
+str.Trim(params char[] chars)
+string s = " \t\nHello!!! \n";
+string clean = s.Trim(' ', ',' ,'!', '\n','\t');
+Console.WriteLine(clean); // Hello
+
+str.TrimStart() and str.TrimEnd()
+string s = "   C#   ";
+string clean = s.TrimStart(); // clean = "C#   "
+ =====================
+StringBuilder sb = new StringBuilder(int capasity);-moje da mu se zadede nachalna duljina
+
+sb.Append(str[i]);-dobavq
+sb.Remove(5, 6);-maha ot index 5 na dqsno 6 elemnta
+sb.Insert(5, " Peter");-ot index 5 natam zapochva da vmukva stringa
+builder.Replace("Peter", "George");
+
+
+
+
 
 
 

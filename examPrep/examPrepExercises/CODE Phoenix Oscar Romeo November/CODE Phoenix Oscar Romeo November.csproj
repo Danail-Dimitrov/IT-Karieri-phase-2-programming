@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA25E6-104F-4550-B4EB-D743818FB1DF}</ProjectGuid>
+    <ProjectGuid>{818300E2-9DE5-4CF7-8C72-FD8FB6484A05}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phonebook</RootNamespace>
-    <AssemblyName>phonebook</AssemblyName>
+    <RootNamespace>CODE_Phoenix_Oscar_Romeo_November</RootNamespace>
+    <AssemblyName>CODE Phoenix Oscar Romeo November</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

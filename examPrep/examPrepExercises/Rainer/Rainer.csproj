@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA25E6-104F-4550-B4EB-D743818FB1DF}</ProjectGuid>
+    <ProjectGuid>{2DD3C31F-56E7-49AF-AB6D-928F091E7C35}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phonebook</RootNamespace>
-    <AssemblyName>phonebook</AssemblyName>
+    <RootNamespace>Rainer</RootNamespace>
+    <AssemblyName>Rainer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

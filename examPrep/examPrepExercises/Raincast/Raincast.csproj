@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA25E6-104F-4550-B4EB-D743818FB1DF}</ProjectGuid>
+    <ProjectGuid>{3962023D-4ACE-49EA-A609-628D6FE69DD5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phonebook</RootNamespace>
-    <AssemblyName>phonebook</AssemblyName>
+    <RootNamespace>Raincast</RootNamespace>
+    <AssemblyName>Raincast</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

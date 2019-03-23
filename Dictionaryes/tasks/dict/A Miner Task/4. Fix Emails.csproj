@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA25E6-104F-4550-B4EB-D743818FB1DF}</ProjectGuid>
+    <ProjectGuid>{346900D1-FE99-43CA-805A-492791CFA24D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phonebook</RootNamespace>
-    <AssemblyName>phonebook</AssemblyName>
+    <RootNamespace>A_Miner_Task</RootNamespace>
+    <AssemblyName>A Miner Task</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
