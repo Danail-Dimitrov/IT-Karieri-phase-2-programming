@@ -81,6 +81,33 @@ sortirat kluchovete v estestveniq im red
 .ContainsKey()-proverq dali klucha sushtestvuva (tova e burza operaciq)
 .ContainsValue()-proverqva dali stoinossta se sadurja (tova e bavna oberaciq)
 .TryGetValue()-proverq dali klucha sushtestvuva i ako da pechata stoinostta mu
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+lambda & LINQ
+colection.Min()-dava nai malkata stoinost v colectiona
+colection.Max()-dava nai golqmata stoinost v colectiona
+colection.Sum()-dava sumata na stoinostite v colectiona
+colection.Average()-dave sredno aretmitichno na colectiona
+var colection = C.RL().Split().Select(number => double.Parse(number));
+list.Select( x => x * 2).ToList();-vsqko chislo ot lista e umnojeno po 2
+colection.OrderBy(x => x).ToList;-podrejda elementite po goleina
+colection.OrderByDescending(x => x).ToList; -podrejda elementite v namalqvasht red
+dict.OrderBy(x => x.Key).ThenBy(x => x.Value)-podrejda po kluch a posle po stoinost
+colection.Take(n);-shte vzeme purvite n eleenta
+colection.Skip(5).Take(3)-propuska purvite 5 i vzima sledvashtite 3
+
+lambda
+!za vseki elemt uprajni slednoto
+lambda operator =>
+lqvata strana opisva vhodnite parametri
+a dqsnata opisva izraza ili tvurdenieto
+!vij prezentaciq lambda izrazi slaid 3
+colection.Where(num => num % 2 == 0)-filtrira chislata k ne sa chetni
+count = colection.Count(num => num % 2 == 0);-dava proq na chislata koito izpulnqvat uslovieto (v tozi case koito sa chetni)
+colection.Distinct()-maha dobliranite chisla
+ 
+
+
+
 
 
 
